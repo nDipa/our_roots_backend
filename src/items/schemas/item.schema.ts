@@ -1,7 +1,9 @@
 import * as mongoose from 'mongoose';
 
 export const ItemSchema = new mongoose.Schema({
-    name: String,
-    qty: Number,
-    description: String,
+  name: String,
+  qty: Number,
+  description: String,
+  image: String,
+  price: Number,
 });
